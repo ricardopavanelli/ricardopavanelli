@@ -2,14 +2,6 @@
 
 ---
 
-💼 Support Technician at [MiraSistemas](#)  
-🎓 Future Software Engineering student  
-📍 Based in Curitiba, Brazil  
-🌱 Currently learning HTML, CSS, JavaScript, and Python  
-🌐 English Level B2/C1 (Upper Intermediate / Advanced)  
-
----
-
 🧰 **Tech Stack:**  
 
 <p align="left">
@@ -19,6 +11,14 @@
   <img alt="Python" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
   <img alt="PHP" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" />
 </p>
+
+---
+
+💼 Support Technician at [MiraSistemas](#)  
+🎓 Software Engineering Student  
+📍  Based in Curitiba, Brazil  
+🌱 Currently learning Python  
+🌐 English Level B2/C1 (Upper Intermediate / Advanced)  
 
 ---
 
