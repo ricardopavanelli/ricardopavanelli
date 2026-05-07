@@ -1,16 +1,25 @@
-## Hi there 👋
+```print("Welcome to my github😉")```
 
-<!--
-**ricardopavanelli/ricardopavanelli** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+---
 
-Here are some ideas to get you started:
+💼 Support Technician at [MiraSistemas](#)  
+🎓 Future Software Engineering student  
+📍 Based in Curitiba, Brazil  
+🌱 Currently learning HTML, CSS, JavaScript, and Python  
+🌐 English Level B2/C1 (Upper Intermediate / Advanced)  
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+🧰 **Tech Stack:**  
+
+<p align="left">
+  <img alt="HTML5" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
+  <img alt="CSS3" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
+  <img alt="JavaScript" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+  <img alt="Python" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
+  <img alt="PHP" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" />
+</p>
+
+---
+
+📫 **Contact:** [github.com/ricardopavanelli](https://github.com/ricardopavanelli)
