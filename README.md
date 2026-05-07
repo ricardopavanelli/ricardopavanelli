@@ -23,3 +23,5 @@
 ---
 
 📫 **Contact:** [github.com/ricardopavanelli](https://github.com/ricardopavanelli)
+📫 **Contact:** [linkedin.com/ricardopavanelli](https://www.linkedin.com/in/ricardopavanelli/)
+
