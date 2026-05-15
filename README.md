@@ -15,7 +15,7 @@
 ---
 
 💼 Support Technician at [MiraSistemas](#)  
-🎓 Software Engineering Student  
+🎓 Software Engineering 
 📍  Based in Curitiba, Brazil  
 🌱 Currently learning Python  
 🌐 English Level B2/C1 (Upper Intermediate / Advanced)  
