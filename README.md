@@ -14,7 +14,7 @@
 
 ---
 
-💼 Support Technician at [MiraSistemas](#)  
+💼 Support Technician at [Tradestar Group](#)  
 🎓 Software Engineering   
 📍  Based in Curitiba, Brazil  
 🌱 Currently learning Python  
