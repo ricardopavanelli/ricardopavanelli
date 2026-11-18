@@ -93,9 +93,6 @@ for i, (e, (x, y)) in enumerate(zip(ESTRELAS, pos)):
     rotulos_svg.append(f'<text x="{x + dx:.1f}" y="{y + dy:.1f}" text-anchor="{ancora}" class="rotulo">'
                        f'{e[0]}<tspan class="greg" dx="6">{e[1]}</tspan></text>')
 
-coracao = ("M0,3.2 C0,1.2 1.6,0 3.1,0 C4.3,0 5.2,0.7 5.6,1.6 C6,0.7 6.9,0 8.1,0 "
-           "C9.6,0 11.2,1.2 11.2,3.2 C11.2,6.4 7.4,8.6 5.6,10 C3.8,8.6 0,6.4 0,3.2 Z")
-
 svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{L}" height="{A}" viewBox="0 0 {L} {A}" role="img" aria-labelledby="t d">
 <title id="t">Ricardo dos Santos Pavanelli, Analista de TI</title>
 <desc id="d">Céu noturno em azul e branco com a constelação do Cruzeiro do Sul nas posições reais das cinco estrelas.</desc>
@@ -107,11 +104,8 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{L}" height="{A}" viewB
 .cargo{{font:500 20px "Archivo",sans-serif;fill:#CFDCFF}}
 .linha{{font:400 15.5px "Archivo",sans-serif;fill:#9FB6EA}}
 .prompt{{font:800 14px "JetBrains Mono",monospace;fill:#7FA6FF}}
-.selo{{font:700 12.5px "Archivo",sans-serif;fill:#fff;letter-spacing:2.6px}}
 .rotulo{{font:600 11.5px "Archivo",sans-serif;fill:#BFD0FF;letter-spacing:.6px;opacity:.78}}
 .greg{{font-weight:400;fill:#7F98D6}}
-.legenda{{font:700 11px "Archivo",sans-serif;fill:#8EA9EE;letter-spacing:4px}}
-.marca{{font:900 172px "Archivo",sans-serif;fill:none;stroke:#fff;stroke-width:1.2;opacity:.07;letter-spacing:6px}}
 .traco{{stroke:#DCE6FF;stroke-width:1.1;opacity:.38;animation:desenha 2.4s ease-out .4s forwards}}
 .cruz{{animation:cintila 5.5s ease-in-out infinite}}
 .pisca{{animation:pisca 5s ease-in-out infinite}}
@@ -136,23 +130,16 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{L}" height="{A}" viewB
 </defs>
 <rect width="{L}" height="{A}" fill="url(#ceu)"/>
 <rect width="{L}" height="{A}" fill="url(#brilhoCruz)"/>
-<text x="{L + 8}" y="{A - 18}" text-anchor="end" class="marca">CRUZEIRO</text>
 <g>{"".join(fundo)}</g>
 <g class="cadente"><line x1="250" y1="22" x2="330" y2="51" stroke="url(#rastro)" stroke-width="1.6" stroke-linecap="round"/></g>
 <g>{"".join(linhas)}</g>
 <g>{"".join(estrelas_svg)}</g>
 <g>{"".join(rotulos_svg)}</g>
-<text x="{CX}" y="{A - 16}" text-anchor="middle" class="legenda">CRUZEIRO DO SUL</text>
 
-<text x="72" y="94" class="prompt">ricardo@curitiba:~$ whoami<tspan class="cursor"> _</tspan></text>
-<text x="70" y="152" class="nome">Ricardo dos Santos Pavanelli</text>
-<text x="72" y="190" class="cargo">Analista de TI · Segurança · Microsoft 365 · Sistemas internos</text>
-<text x="72" y="220" class="linha">Tradestar Group  ·  Engenharia de Software  ·  Curitiba, PR</text>
-<g transform="translate(72 248)">
-<rect width="168" height="30" rx="15" fill="#fff" fill-opacity=".07" stroke="#fff" stroke-opacity=".38"/>
-<path d="{coracao}" transform="translate(15 10)" fill="#4D84FF"/>
-<text x="35" y="19.6" class="selo">CRUZEIRENSE</text>
-</g>
+<text x="72" y="108" class="prompt">ricardo@curitiba:~$ whoami<tspan class="cursor"> _</tspan></text>
+<text x="70" y="166" class="nome">Ricardo dos Santos Pavanelli</text>
+<text x="72" y="204" class="cargo">Analista de TI · Segurança · Microsoft 365 · Sistemas internos</text>
+<text x="72" y="234" class="linha">Tradestar Group  ·  Engenharia de Software  ·  Curitiba, PR</text>
 <rect x="0" y="{A - 3}" width="{L}" height="3" fill="url(#faixa)" opacity=".5"/>
 </svg>
 '''
